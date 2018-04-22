@@ -1,6 +1,6 @@
 import unittest
 from selenium import webdriver
-class SearchText(unittest.TestCase):
+class SearchEmail(unittest.TestCase):
     @classmethod
     def setUpClass(inst):
         inst.driver = webdriver.Chrome()
